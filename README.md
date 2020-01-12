@@ -3,12 +3,15 @@
 ## 1. Edit files based on your needs:
 
 > cobbler_settings
+
 > dhcpd.conf
 
 ## 2. Prepare configs if dirs which will be bound to container:
 
 > /var/lib/cobbler
+
 > /var/lib/tftpboot
+
 > /var/www/cobbler
 
 
