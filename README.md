@@ -2,10 +2,17 @@
 
 ## Edit files based on your needs:
 
->cobbler_settings
+> cobbler_settings
 
->dhcpd.conf
+> dhcpd.conf
 
+## Prepare configs which will be bound to container:
+
+> /var/lib/cobbler
+
+> /var/lib/tftpboot
+
+> /var/www/cobbler
 
 
 ## Run container:
