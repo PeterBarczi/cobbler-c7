@@ -6,7 +6,7 @@
 
 > dhcpd.conf
 
-## 2.Prepare configs which will be bound to container:
+## 2.Prepare configs if dirs which will be bound to container:
 
 > /var/lib/cobbler
 
