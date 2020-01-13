@@ -1,0 +1,19 @@
+version: "3.3"
+
+services:
+  cobbler:
+    image: petyb/cobbler-c7:latest
+    privileged: true
+    network_mode: host
+    container_name: mycobbler
+    restart: always
+    environment:
+      TZ: Europe/Bratislava
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - /data/lib_cobbler:/var/lib/cobbler
+      - /data/tftpboot:/var/lib/tftpboot
+      - /data/cobbler:/var/www/cobbler
+
+      - /apps/cobbler_settings:/etc/cobbler/settings
+      - /apps/dhcpd.conf:/etc/dhcpd/dhcpd.conf
