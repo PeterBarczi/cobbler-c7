@@ -1,4 +1,4 @@
-# Cobbler 2.8.5 with dhcpd, tftpd based on CentOS 7.7 + systemd enabled.
+# Cobbler 2.8.5 with web GUI, dhcpd, tftpd based on CentOS 7.7 + systemd enabled.
 
 ## 1. Edit files based on your needs:
 
@@ -6,7 +6,7 @@
 
 > dhcpd.conf
 
-## 2. Prepare configs if dirs which will be bound to container:
+## 2. Prepare configs in dirs which will be bound to container:
 
 > /var/lib/cobbler
 
