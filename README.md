@@ -4,7 +4,7 @@
 
 > cobbler_settings
 
-> dhcpd.conf
+> dhcp.template
 
 ## 2. Prepare configs in dirs which will be bound to container:
 
