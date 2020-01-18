@@ -3,7 +3,7 @@
 
 
 #  ~~~~~~~~~~~ Create Container via image ~~~~~~~~~~~
-## 1. Edit files based on your needs:
+## 1. Edit files according to your needs:
 
 > cobbler_settings
 
