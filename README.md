@@ -2,7 +2,7 @@
 
 
 
-########################## Create Container via image ##################################
+# ########################## Create Container via image ##################################
 ## 1. Edit files based on your needs:
 
 > cobbler_settings
@@ -24,9 +24,9 @@ docker run --privileged --name mycobbler -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v 
 
 
 
--
 
-########################## Create Container via the compose file ###############################
+
+# ######################### Create Container via the compose file ###############################
 
 ## 1. Downlod docker-compose.yml file
 
