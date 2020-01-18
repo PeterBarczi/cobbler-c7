@@ -24,13 +24,14 @@ docker run --privileged --name mycobbler -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v 
 
 
 
-
+-
 
 ########################## Create Container via compose file ###############################
 
 ## 1. Downlod docke-compose.yml file
 
-## 2. Edit config files based on you needs (at least IP variable needs to be adjusted according to you environment)
+## 2. Edit config files based on you needs 
+NOTE: at least IP variable needs to be adjusted according to you environment)
 - cobbler_settings
 - dhcp.template
 
