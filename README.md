@@ -36,3 +36,6 @@ NOTE: at least IP variable needs to be adjusted according to you environment in:
 - dhcp.template
 
 ## 3. RUN docker-compose
+
+## 3. RUN docker-compose
+https://YOUR_IP/cobbler_web
