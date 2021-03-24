@@ -9,7 +9,8 @@ RUN yum install -y dhcp cobbler cobbler-web dnsmasq syslinux pykickstart mod_pyt
 RUN sed -i '/disable/s/yes/no/' /etc/xinetd.d/tftp
 
 # Deploy Configs
-ADD dhcpd.conf /etc/dhcp/
+#ADD dhcpd.conf /etc/dhcp/
+ADD dhcp.template /etc/cobbler/
 ADD cobbler_settings /etc/cobbler/settings
 
 # Enable Services
