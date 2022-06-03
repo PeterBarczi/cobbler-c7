@@ -1,7 +1,7 @@
 # Cobbler 2.8.5 with web GUI, dhcpd, tftpd based on CentOS 7.7 + systemd enabled.
 
 
-
+# OPTION A
 ### Create Container via image 
 ### 1. Edit files according to your needs:
 ```
@@ -16,14 +16,14 @@ dhcp.template
 ```
 
 ### 3. Run container:
-
+```
 docker run --privileged --name mycobbler -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v /var/lib/cobbler:/var/lib/cobbler -v /var/lib/cobbler:/var/lib/tftpboot -v /var/lib/cobbler:/var/www/cobbler --net host -d cobbler-c7
+```
 
 
 
-
-
-## ~~~~~~ Create Container via the compose file ~~~~~
+# OPTION B
+### Create Container via the compose file
 
 ### 1. Downlod docker-compose.yml file
 
