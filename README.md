@@ -4,11 +4,10 @@
 
 ##  ~~~~~~~~~ Create Container via image ~~~~~~~~~
 ### 1. Edit files according to your needs:
-
-> cobbler_settings
-
-> dhcp.template
-
+```
+cobbler_settings
+dhcp.template
+```
 ### 2. Prepare configs in dirs which can be bound to container:
 
 > /var/lib/cobbler
