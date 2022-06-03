@@ -3,19 +3,19 @@
 
 # OPTION A
 ### Create Container via image 
-### 1. Edit files according to your needs:
+## 1. Edit files according to your needs:
 ```
 cobbler_settings
 dhcp.template
 ```
-### 2. Prepare configs in dirs which can be bound to container:
+## 2. Prepare configs in dirs which can be bound to container:
 ```
 /var/lib/cobbler
 /var/lib/tftpboot
 /var/www/cobbler
 ```
 
-### 3. Run container:
+## 3. Run container:
 ```
 docker run --privileged --name mycobbler -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v /var/lib/cobbler:/var/lib/cobbler -v /var/lib/cobbler:/var/lib/tftpboot -v /var/lib/cobbler:/var/www/cobbler --net host -d cobbler-c7
 ```
