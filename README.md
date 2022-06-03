@@ -28,7 +28,7 @@ docker run --privileged --name mycobbler -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v 
 ### 1. Downlod docker-compose.yml file
 
 ### 2. Edit config files based on you needs 
-NOTE: at least IP variable needs to be adjusted according to you environment in:
+NOTE: at least IP variable needs to be adjusted according to your environment in the following files:
 - cobbler_settings
 - dhcp.template
 
