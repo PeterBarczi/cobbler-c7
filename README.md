@@ -35,6 +35,7 @@ NOTE: at least IP variable needs to be adjusted according to you environment in:
 ### 3. RUN docker-compose
 
 ### 4. Access WEB Cobbler
+```
 https://YOUR_IP/cobbler_web
-
+```
 Login credentials: cobbler/cobbler
